@@ -1,0 +1,25 @@
+{
+	"name": "check-magic",
+	"description": "Manage your check.txt file with magic!",
+	"version": "0.1.0",
+	"author": "Wizcorp, Inc. <info@wizcorp.jp>",
+	"dependencies": {},
+	"devDependencies": {
+		"jshint": "*",
+		"mocha": "*"
+	},
+	"scripts": {
+		"test": "./node_modules/.bin/mocha test/index.js"
+	},
+	"bugs" : {
+		"url" : "http://github.com/AerisCloud/check-magic/issues"
+	},
+	"license": {
+		"type": "MIT",
+		"url": "https://github.com/AerisCloud/check-magic/raw/master/LICENSE"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/AerisCloud/check-magic.git"
+	}
+}
