@@ -1,7 +1,7 @@
 {
 	"name": "check-magic",
 	"description": "Manage your check.txt file with magic!",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"author": "Wizcorp, Inc. <info@wizcorp.jp>",
 	"dependencies": {},
 	"devDependencies": {

@@ -31,7 +31,7 @@ CheckMagic.prototype.goOffline = function () {
 		return;
 	}
 
-	if (!this.keep && fs.existsSync(this.path)) {
+	if (!this.leave && fs.existsSync(this.path)) {
 		return fs.unlinkSync(this.path);
 	}
 
